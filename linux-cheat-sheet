@@ -1,1 +1,135 @@
-#
+# Display Linux system information
+uname -a
+
+# Display kernel release information
+uname -r
+
+# know your OS
+uname -o
+
+# Show how long the system has been running + load
+uptime
+
+# Display CPU information
+cat /proc/cpuinfo
+
+# Display memory information
+cat /proc/meminfo
+
+# Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
+free -h
+
+# Display PCI devices
+lspci -tv
+
+# Display USB devices
+lsusb -tv
+
+# Show system host name
+hostname
+
+# CHange hostname
+sudo hostnamectl set-hostname <name_you_want_to_set>
+
+# Display the IP addresses of the host
+hostname -I
+
+# Show system reboot history
+last reboot
+
+# Show the current date and time
+date
+
+# Show this month's calendar
+cal
+
+#Show 3 months 
+cal -3
+
+# Display calender of particular month
+cal -m <1...12>
+
+# Display who is online
+w
+
+# Number of users connected 
+who -q
+
+# Who you are logged in as
+whoami
+
+# List files
+ls
+
+# Hidden files
+ls -a 
+
+# Inode numbers listing
+ls -i
+
+# Listing in a single column
+ls -l
+
+# Make directory 
+mkdir
+
+# Make multiple directories
+mkdir -p parent/child
+
+# Remove a directory
+rmdir
+
+# Remove a file
+rm
+
+# Remove directory and its content
+rm -r <name>
+
+# switch to home directory
+cd
+
+# Switch one level back
+cd ..
+
+# Switch two level back
+cd ../..
+
+# Create a file
+cat 
+touch
+
+Difference : Touch creates an empty file but can be used to create as well append a file.
+
+# Display line numbers with file data
+cat -n <filename>
+
+# Remove empty lines from a file
+cat -b <filenmame>
+
+# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
