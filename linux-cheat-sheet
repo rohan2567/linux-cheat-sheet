@@ -106,7 +106,91 @@ cat -n <filename>
 # Remove empty lines from a file
 cat -b <filenmame>
 
+# Display lines from starting
+head -n <filename>
+
+# Check which processes are running
+top 
+ps
+
+By Using top command, u can type k and then the process id to terminamte it.
+
+# What is a shell
+Interpreter between user and machine
+
+# Symbolic links (Soft link)
+Just like shortcuts in windows.
+A soft link doesn't contain any information or content of the linked file, instead it has a pointer to the location of the linked file
+Inode numbers differ by 1
+if original file is deleted, link becomes available
+
+ln-s filenmame
+
+# Hard links
+It links more than one filename with the same Inode and it represents the physical location of a file
+Hard links not allowed for directory.
+
+# Absolute path 
+Path starting from root directory
+
+# Relative path
+current path
+
+# To know all ip addresses of machine
+ifconfig
+
+# Check if a remote machine is online
+ping <ip>/hostname
+
+# How to kill a process
+Get process id by "ps -ef"
+execute kill command
+
+# WHere are dns configrations
+/etc/resolv.conf
+
+# Linux boot sequence flow
+BIOS -> MBR -> Boot Loader/Grub -> Kernel -> Runlevel
+
 # 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
