@@ -152,7 +152,41 @@ execute kill command
 # Linux boot sequence flow
 BIOS -> MBR -> Boot Loader/Grub -> Kernel -> Runlevel
 
+# List files opened by  a user
+lsof -u user
+
+# Display last user logged in
+last
+
+# Diplay who is logged in
+who
+
+# files which have been accessed within the last 30 days
+find * -mtime -30
+
+# To delete files older than 7 days
+find /dir_name -type f -mtime +7 -exec rm -f {} \;
+
 # 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
