@@ -1,6 +1,7 @@
 # Display Linux system information
 uname -a
 
+
 # Display kernel release information
 uname -r
 
